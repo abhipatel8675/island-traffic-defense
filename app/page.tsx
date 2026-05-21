@@ -49,11 +49,6 @@ export default function IslandTrafficDefenseWebsite() {
 
   const whyChooseUs = [
     {
-      stat: "20+",
-      label: "Years of Experience",
-      description: "Two decades defending Long Island drivers in Nassau and Suffolk County courts.",
-    },
-    {
       stat: "Local",
       label: "Court Knowledge",
       description:
@@ -111,7 +106,7 @@ export default function IslandTrafficDefenseWebsite() {
         <div className="relative max-w-7xl mx-auto px-6 py-20 lg:py-32">
           <div className="max-w-3xl">
             <div className="inline-flex items-center rounded-full border border-blue-500/40 bg-blue-500/10 px-4 py-2 text-sm text-blue-200 mb-6">
-              20 Years of Strategic Traffic Defense Across Nassau &amp; Suffolk County
+              Strategic Traffic Defense Across Nassau and Suffolk County
             </div>
 
             <h1 className="text-5xl lg:text-7xl font-black leading-tight tracking-tight">
@@ -250,44 +245,12 @@ export default function IslandTrafficDefenseWebsite() {
                 Deep Knowledge of Nassau &amp; Suffolk County{" "}
                 <span className="text-blue-400">Traffic Courts</span>
               </h2>
-              <p className="text-slate-300 leading-relaxed mb-5">
-                Traffic defense outcomes depend heavily on local knowledge. Island Traffic Defense
-                has appeared in Nassau and Suffolk County traffic courts for over 20 years —
-                developing relationships with local prosecutors and a thorough understanding of the
-                procedures, tendencies, and administrative rules that govern each courthouse.
-              </p>
-              <p className="text-slate-300 leading-relaxed mb-5">
-                From the Traffic Violations Bureau in Hauppauge to local village and town courts
-                across the Island, we know how to navigate each venue strategically. That local edge
-                can be the difference between a conviction and a dismissal.
-              </p>
               <p className="text-slate-300 leading-relaxed">
-                We serve drivers throughout Huntington, Hempstead, Mineola, Central Islip,
-                Riverhead, and every court across Nassau and Suffolk County.
+                Traffic defense outcomes depend heavily on local knowledge. We have appeared in courts throughout Nassau and Suffolk for over 20 years. We maintain a thorough understanding of the procedures, tendencies, and administrative rules that govern each courthouse. From the Nassau County Traffic and Parking Violations Agency (TPVA) and the Suffolk County TPVA, to local village courts across the Island, we know how to navigate each venue strategically. That local edge can be the difference between a conviction and a dismissal.
               </p>
             </div>
 
-            <div className="space-y-4">
-              {[
-                "Nassau County Traffic Violations Bureau",
-                "Suffolk County Traffic Violations Bureau",
-                "Town &amp; Village Courts across Long Island",
-                "New York State DMV hearings",
-                "CDL federal compliance matters",
-                "Insurance point reduction strategies",
-              ].map((item) => (
-                <div
-                  key={item}
-                  className="flex items-center gap-3 bg-slate-800/60 border border-slate-700 rounded-xl px-5 py-4"
-                >
-                  <div className="w-2 h-2 rounded-full bg-blue-400 flex-shrink-0"></div>
-                  <span
-                    className="text-slate-200 font-medium"
-                    dangerouslySetInnerHTML={{ __html: item }}
-                  />
-                </div>
-              ))}
-            </div>
+            <div />
           </div>
         </div>
       </section>
